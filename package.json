@@ -1,0 +1,24 @@
+{
+  "name": "nsl-management-system",
+  "version": "1.0.0",
+  "description": "management system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "nsl"
+  ],
+  "author": "mtrshuvo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "sib-api-v3-sdk": "^8.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
