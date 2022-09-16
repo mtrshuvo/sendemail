@@ -32,7 +32,6 @@ module.exports.sendEmail = async(req, res)=> {
             `
         }).then(()=> res.status(200).send("success"))
         .catch(err=>{
-            console.log(err);
             res.status(400).send("failed")})
     }catch(e){
         console.log(e);
